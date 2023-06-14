@@ -1,3 +1,16 @@
+document.addEventListener('DOMContentLoaded', 
+    ()=>{
+        Swal.fire({
+            title: 'Dale Click a Permitir conocer tu ubicación',
+            showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+            }
+        })
+    }
+);
 let listaProductos = []; //Creacion del arreglo
 let guardarStorage;
 const objProducto = {
